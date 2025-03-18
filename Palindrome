@@ -1,0 +1,18 @@
+import java.util.*;
+class Palindrome{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter The Word");
+        String word =in.nextLine();
+        String word2="";
+        for(int i=word.length()-1;i>=0;i--){
+            word2=word2+word.charAt(i);
+        }
+        //System.out.println(word2);
+        if(word.equals(word2)){
+            System.out.println("Word "+word2+" is Palindrome");
+        }else {
+            System.out.println("Word "+word2+" is Not Palindrome");
+        }
+    }
+}
