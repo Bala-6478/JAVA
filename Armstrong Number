@@ -1,0 +1,20 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER: ");
+        int num=sc.nextInt();
+        sc.close();
+        int originalnumber=num,sum=0,digit;
+        int n=String.valueOf(num).length();
+        while (num>0) {
+            digit=num%10;
+            sum +=Math.pow(digit, n);
+            num /=10;
+        }if(sum==originalnumber){
+            System.out.println("AMSTRONG NUMBER");
+        }else{
+            System.out.println("NOT AMSTRONG NUMBER");
+        }
+    }
+}
