@@ -1,0 +1,25 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER: ");
+        int n=sc.nextInt();
+        sc.close();
+        if(isPerfect(n)){
+            System.out.println("PERFECT NUMBER");
+        }else{
+            System.out.println("NOT A PERFECT NUMBER:");
+        }
+    }
+    public static boolean isPerfect(int n){
+        if(n<=1){
+            return false;
+        }int sum=0;
+        for(int i=1;i<=n/2;i++){
+            if(n%i==0){
+                sum +=i;
+            }
+        }
+        return sum==n;
+    }
+}
