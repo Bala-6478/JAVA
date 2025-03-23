@@ -6,3 +6,4 @@
 # 4.PerfectSquare Number
 # 5.Factorial Number
 # 6.Pattren
+# 7.Prime
