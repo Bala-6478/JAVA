@@ -7,3 +7,4 @@
 # 5.Factorial Number
 # 6.Pattren
 # 7.Prime
+# 8.Average Number
