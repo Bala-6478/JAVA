@@ -1,0 +1,21 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number :");
+        int n,r,num;
+        boolean flag=false;
+        n=sc.nextInt();
+        num=n;
+        while(num>0){
+            r=num%10;
+            if(r==0 ){
+                flag=true;
+            }num=num/10;
+        }if(flag){
+            System.out.println("duck");
+        }else{
+            System.out.println("not duck");
+        }sc.close();
+    }
+}
