@@ -1,0 +1,27 @@
+
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number :");
+        int n=sc.nextInt();
+        sc.close();
+        int org=n;
+        int sum=0;
+        while (n>0) {
+            int digit=n%10;
+            sum+=factorial(digit);
+            n/=10;
+        }if(org==sum){
+            System.out.println("strong");
+        }else{
+            System.out.println("not strong");
+        }
+    }
+    public static int factorial(int num){
+        int fact=1;
+        for(int i=1;i<=num;i++){
+            fact*=i;
+        }return fact;
+    }
+}
