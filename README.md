@@ -8,3 +8,4 @@
 # 6.Pattren
 # 7.Prime
 # 8.Average Number
+# 9.buzz number
