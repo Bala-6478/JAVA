@@ -1,0 +1,19 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number 1 :");
+        int num1=sc.nextInt();
+        System.out.println("enter the number 2 :");
+        int num2=sc.nextInt();
+        sc.close();
+        System.out.println("the gcd of " +num1 +" and " +num2 +" is " +gcd(num1,num2));
+    }
+    public static int gcd(int number1,int number2){
+        if(number2==0){
+            return number1;
+        }else{
+            return gcd(number2, number1%number2);
+        }
+    }
+}
