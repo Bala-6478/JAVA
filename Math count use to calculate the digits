@@ -1,0 +1,11 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number :");
+        int n=sc.nextInt();
+        int count=String.valueOf(Math.abs(n)).length();
+        System.out.println("the digits of " +count);
+        sc.close();
+    }
+}
