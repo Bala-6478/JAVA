@@ -1,0 +1,17 @@
+import java.util.*;
+class CheckNumberSign {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        double number = in.nextDouble();
+
+        if (number > 0) {
+            System.out.println(number + " is a positive number.");
+        } else if (number < 0) {
+            System.out.println(number + " is a negative number.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+    }
+}
