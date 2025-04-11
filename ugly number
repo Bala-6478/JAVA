@@ -1,0 +1,26 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number = ");
+        boolean flag=true;
+        int n=sc.nextInt();
+        while(n!=1){
+            if(n%5==0){
+                n/=5;
+            }else if(n%3==0){
+                n/=3;
+            }else if(n%2==0){
+                n/=2;
+            }else{
+                flag=false;
+                break;
+            }
+        }
+        if(flag){
+            System.out.println("ugly number ");
+        }else{
+            System.out.println("not ugly number ");
+        }sc.close();
+    }
+}
