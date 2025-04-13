@@ -1,0 +1,14 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int sum=0,number=0;
+        do{
+            sum+=number;
+            System.out.println("enter the number  : ");
+            number =sc.nextInt();
+        }while(number >=0);
+        System.out.println("sum " +sum );
+        sc.close();
+    }
+}
