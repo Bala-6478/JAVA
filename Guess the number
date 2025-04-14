@@ -1,0 +1,18 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int secretNumber=3;
+        int guess;
+        do{
+            System.out.println("guss the number ");
+            guess=sc.nextInt();
+
+            if(guess != secretNumber){
+                System.out.println("wrong number .try again !");
+            }
+        }while(guess != secretNumber);
+        System.out.println("good you guss is correct");
+        sc.close();
+    }
+}
