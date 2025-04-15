@@ -1,0 +1,14 @@
+100> number checking number :
+
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int count=0;
+        do{
+            System.out.println("enter the number > 100");
+            count=sc.nextInt();
+        }while(count<100);
+        sc.close();
+    }
+}
