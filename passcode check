@@ -1,0 +1,18 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int correctcode=1234;
+        int userinput;
+        do{
+            System.out.println("enter the passcode : ");
+            userinput=sc.nextInt();
+
+            if(correctcode != userinput){
+                System.out.println("incorrect passcode ");
+            }
+        }while(userinput!= correctcode);
+        System.out.println("access granted!");
+        sc.close();
+    }
+}
