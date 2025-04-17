@@ -1,0 +1,27 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        char choice;
+        do{
+            System.out.println("\n game menu :");
+            System.out.println("start (p)");
+            System.out.println("exit (q) ");
+            System.out.println("enter your choice :");
+
+            choice=sc.next().charAt(0);
+            switch (choice) {
+                case 'p':
+                    System.out.println("start the game : ");
+                    break;
+                case 'q':
+                    System.out.println("exit the game : ");
+                    break;
+            
+                default:
+                    System.out.println("invalid option .change to option 'p'or 'q' ");
+            }
+        }while (choice!='q');
+        sc.close();
+    }
+}
