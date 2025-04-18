@@ -1,13 +1,20 @@
 import java.util.*;
-class Vote {
+class Main{
     public static void main(String[] args) {
-        Scanner in =new Scanner(System.in);
-        System.out.println("Enter your age : ");
-        int age = in.nextInt();
-        if(age >= 18){
-            System.out.println("You Are Eligible to Vote");
-        }else{
-            System.out.println("You Are Not Eligible to Vote");
-        }
+        Scanner sc=new Scanner(System.in);
+        int age;
+
+        do{
+            System.out.println("enter your age :");
+            age=sc.nextInt();
+
+            if(age >= 18){
+                System.out.println("you are eligible to vote ");
+            }else{
+                System.out.println("you are not eligible to vote !");
+            }System.out.println("do you check again (yes/no )");
+            sc.nextLine();
+        }while(sc.nextLine().equalsIgnoreCase("yes"));
+        sc.close();
     }
 }
