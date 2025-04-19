@@ -1,0 +1,24 @@
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the birth year :");
+       int year=sc.nextInt();
+       System.out.println("enter the birth month :");
+       int month=sc.nextInt();
+       System.out.println("enter the birth date :");
+       int date=sc.nextInt();
+
+       LocalDate birthDate=LocalDate.of(year, month, date);
+       LocalDate currentDate=LocalDate.now();
+
+       if((birthDate != null )&& (birthDate.isBefore(currentDate))){
+        Period age=Period.between(birthDate, currentDate);
+        System.out.println("age "+age.getYears ());
+       }else{
+        System.out.println("invalid birth date");
+       }
+    }
+}
