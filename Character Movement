@@ -1,0 +1,39 @@
+import java.util.*;
+
+class CharacterMovement {
+    public static void main(String Bala[]) {
+        Scanner in = new Scanner(System.in);
+        char input;
+        boolean running = true;
+        while (running) {
+            System.out.print("\nEnter your move: ");
+            String line = in.nextLine();
+
+            if (line.length() == 0) continue;
+
+            input = Character.toLowerCase(line.charAt(0));
+
+            switch (input) {
+                case 'w':
+                    System.out.println("You moved Forward!");
+                    break;
+                case 's':
+                    System.out.println("You moved Backward!");
+                    break;
+                case 'a':
+                    System.out.println("You moved Left!");
+                    break;
+                case 'd':
+                    System.out.println("You moved Right!");
+                    break;
+                case 'q':
+                    System.out.println("Game Exiting...");
+                    running = false;
+                    break;
+                default:
+                    System.out.println("Invalid key! Use W/A/S/D to move or Q to quit.");
+            }
+        }
+        System.out.println("Game Ended.");
+    }
+}
