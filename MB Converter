@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class MBConverter {
+
+    public static void main(String[] BALA) {
+        Scanner in = new Scanner(System.in);
+
+        // Input: number of megabytes
+        System.out.print("Enter the size in MB (Megabytes): ");
+        double mb = in.nextDouble();
+
+        // Constants
+        double KB = 1024.0;
+        double BYTE = 1024.0 * 1024.0;
+        double GB = 1024.0;
+
+        // Conversions
+        double inKB = mb * KB;
+        double inBytes = mb * BYTE;
+        double inGB = mb / GB;
+
+        // Output
+        System.out.println("\n--- Storage Conversion from MB ---");
+        System.out.printf("Megabytes: %.2f MB%n", mb);
+        System.out.printf("Kilobytes: %.2f KB%n", inKB);
+        System.out.printf("Bytes: %.2f B%n", inBytes);
+        System.out.printf("Gigabytes: %.4f GB%n", inGB);
+
+    }
+}
