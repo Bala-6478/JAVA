@@ -1,0 +1,15 @@
+import java.util.*;
+class Main{
+    public static int add(int a,int b){
+        return a+b;
+    }
+    public static void printMessage(String message){
+        System.out.print(message);
+        return;
+    }
+    public static void main(String[] args) {
+        int sum=add(5,3);
+        System.out.println("the sum is:"+sum);
+        printMessage("hello,world!");
+    }
+}
