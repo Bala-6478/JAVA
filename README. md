@@ -90,7 +90,7 @@ Programs focused on real-world checks and utilities.
 Small application-style programs.
 
 | # | Concept | Description |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- |  
 | **37** | **Guess the Number** | Implement a simple game where the user tries to guess a randomly generated number. |
 | **38** | **Passcode Check / Voting Check** | Simple programs to check if a user-provided passcode is correct or if a person is eligible to vote (age check). |
 | **39** | **Game Coding** | *(Note: A placeholder for a simple text-based game or scenario.)* |
