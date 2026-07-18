@@ -1,8 +1,8 @@
-# 🚀 Java Programming 
+# 🚀 Java Programming.
 
 This repository serves as a structured collection of fundamental to intermediate Java programs, focusing on essential concepts like number properties, string manipulation, control flow, and basic application logic. It's a great resource for learning, practicing, and reviewing core Java skills.
 
-## 🎯 Repository Goals
+## 🎯 Repository Goals.
 
 * **Foundation:** Solidify understanding of Java syntax and control structures (loops, conditionals).
 * **Algorithms:** Implement common algorithms related to numbers (prime, factorial, GCD, LCM) and strings (palindrome).
@@ -10,7 +10,7 @@ This repository serves as a structured collection of fundamental to intermediate
 
 ---
 
-## 📚 Program Index
+## 📚 Program Index.
 
 The exercises are categorized for easier navigation and learning progression.
 
