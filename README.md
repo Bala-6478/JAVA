@@ -14,7 +14,7 @@ This repository serves as a structured collection of fundamental to intermediate
 
 The exercises are categorized for easier navigation and learning progression.
 
-### 🔢 Number Properties & Arithmetic
+### 🔢 Number Properties & Arithmetic.
 
 These programs focus on analyzing and manipulating integer data.
 
@@ -38,9 +38,10 @@ These programs focus on analyzing and manipulating integer data.
 | **16** | **Pornic Number** | *(Note: This seems to be a custom or non-standard term. Clarification/Correction needed, or implement based on local definition.)* |
 | **17** | **Weird Number Check** | *(Note: Implement based on the definition of a "Weird Number" in mathematics - an abundant number that is not semiperfect.)* |
 
-### ⚙️ Digits, Loops & Math
+### ⚙️ Digits, Loops & Math.
 
-Programs focused on digit manipulation and essential utility functions.
+Programs focused on digit manipulation
+and essential utility functions.
 
 | # | Concept | Description |
 | :--- | :--- | :--- |
@@ -74,7 +75,7 @@ These exercises demonstrate essential flow control mechanisms in Java.
 | **31** | **Pattern / Pattern Printing** | Implement various types of pattern printing using nested loops (e.g., stars, numbers, shapes). |
 | **32** | **Choice Selection** | Implement a menu-driven program using `switch` statements or nested `if-else` blocks. |
 
-### ⏰ Date & Time / Practical Logic
+### ⏰ Date & Time / Practical Logic.
 
 Programs focused on real-world checks and utilities.
 
