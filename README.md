@@ -9,7 +9,7 @@ This repository serves as a structured collection of fundamental to intermediate
 * **Problem-Solving:** Tackle practical exercises and mini-projects.
 
 ---
-
+  
 ## 📚 Program Index.
 
 The exercises are categorized for easier navigation and learning progression.
